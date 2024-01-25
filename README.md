@@ -1,1 +1,0 @@
-# studiobinguru.github.io
