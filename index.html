@@ -25,15 +25,16 @@
             height: auto; /* 높이를 자동으로 설정하여 비율 유지 */
             margin-bottom: 20px;
         }
-        .email {
+        .email, .internal-test-link {
             color: #444444;
             font-size: 18px;
+            margin-bottom: 10px; /* 추가된 마진 */
         }
-        .email a {
+        .email a, .internal-test-link a {
             color: #007bff;
             text-decoration: none;
         }
-        .email a:hover {
+        .email a:hover, .internal-test-link a:hover {
             text-decoration: underline;
         }
     </style>
@@ -42,5 +43,6 @@
     <div class="studio-name">Studio Binguru</div>
     <img src="MainImage.png" alt="Studio Binguru Image" class="studio-image">
     <div class="email">이메일: <a href="mailto:studiobinguru@gmail.com">studiobinguru@gmail.com</a></div>
+    <div class="internal-test-link">내부 테스트 링크: <a href="https://play.google.com/apps/internaltest/4701361687005525787" target="_blank">여기를 클릭하세요</a></div>
 </body>
 </html>
